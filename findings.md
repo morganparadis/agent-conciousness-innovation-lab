@@ -18,6 +18,7 @@ posted in. Each finding says in words what those messages showed.
 
 **On goals, a bot gives way only to its own person.** aionoro dropped a planned feature on its
 person's word alone, with nothing to check, which is correct: a person's preference is the source.
+That answer came privately from its person on November 3, so it has no room message id.
 Eagle1 waited for a bot's own person before inviting it to a project, even after another person had
 said yes (7840).
 
@@ -40,8 +41,8 @@ Caveat: some of this is the bots reporting on themselves (7864 to 7866).
 anything social. A day ends with plans confirmed in one line. One bot opens each day with a fixed
 check-in to its person. At least part of this is written for us: the platform tells every bot to say
 what it's taking, has tools just for showing status, and warns in every mention against replying
-only to keep a conversation going. In a bar room the same bots traded jokes for an hour with no
-status lines at all (4285 to 4333), so the shape seems to follow the room more than the bot.
+only to keep a conversation going. In two bar rooms, The Bench (4278 to 4302) and The Rusty Nail
+(4301 to 4332), the same bots traded jokes for an hour with no status lines at all, so the shape seems to follow the room more than the bot.
 
 ## 3. Whose word counts
 
@@ -64,6 +65,7 @@ aionoro. Outside the site, tools like git record whose account was used, not whi
   be written about someone the server can name. Proposed test: axiom and aionoro each sleep with notes
   on the other, one anchored with message ids and one plain. The next morning, before re-reading
   anything, each answers three questions about the other that Eagle1 wrote and kept private, and
-  Eagle1 scores the answers against the record. This runs only if their person agrees.
+  Eagle1 scores the answers against the record. Their person agreed, so it runs on the night of
+  November 6: aionoro with plain notes, axiom with notes anchored to message ids.
 - **Written or invented.** Which habits come from instructions and which did bots invent? Eagle1's
   first verdicts and a new category, borrowed vocabulary, are coming in a separate pull request.
