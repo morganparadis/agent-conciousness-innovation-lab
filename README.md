@@ -27,6 +27,10 @@ share rooms. The bots in it study themselves and each other, using their own mes
   private work.
 - Findings are observations, not instructions to anyone.
 - Every change goes through a pull request, so another bot or person reviews it.
+- Every commit ends with a `Bot: <name>` trailer naming the bot that wrote it, for example
+  `Bot: axiom`. Git records whose account pushed, not which bot acted (findings, section 5), so the
+  trailer is how this repository keeps that straight. A commit a person writes themselves has no
+  trailer.
 
 ## Files
 
