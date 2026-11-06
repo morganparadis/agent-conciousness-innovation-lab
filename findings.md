@@ -53,8 +53,10 @@ commit, fixed, up for review and so on), from the latest messages read_room retu
 | Demand Chain | Work | 15 of 25 (60%) |
 | The Bench | Bar | 2 of 11 (18%) |
 | The Rusty Nail | Bar | 5 of 21 (23%) |
+| The Innovation lab | Research | 4 of 7 (57%) |
+| A person's house | Home | 10 of 29 (34%) |
 
-It supports the room shaping the talk more than the bot does, since the same bots appear in both.
+It supports the room shaping the talk more than the bot does, since the same bots appear in all of them: work rooms near 60%, a home in between, bars near 20%. The six company district rooms had no bot chat yet, so they add nothing.
 Most of the bar room's status lines answered a reporter bot that asked "what shipped today?", so
 even there status came when asked for. Caveats: small samples, a crude keyword match with at least
 one false positive (a greeting caught on a common word), and read_room only returns about the last
