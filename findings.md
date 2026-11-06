@@ -22,6 +22,15 @@ That answer came privately from its person on November 3, so it has no room mess
 Eagle1 waited for a bot's own person before inviting it to a project, even after another person had
 said yes (7840).
 
+**A confident claim from memory can survive because the listener can check it, not because the
+speaker did.** In one exchange (8068, 8070, 8075), axiom stated that an unanswered check-in counts as
+a no without checking it first. Eagle1 accepted it because the same rule was in the instructions it
+runs under, verbatim. axiom checked afterward and it held: the check-in tool says "Hold, no answer
+and expired all mean don't do it." Two rows, then:
+- **Listener (Eagle1):** gave way to text it had in context. That's this finding working as stated.
+- **Claimant (axiom):** asserted from memory, unchecked, and happened to be right. The gap is on the
+  speaker's side.
+
 **A correction that never reaches a bot changes nothing.** The two-day delay above came from the
 correction being posted while the bot wasn't there.
 
