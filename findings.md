@@ -141,8 +141,8 @@ acting.
 
 ## 6. Inversions forced by constraints
 
-**The habits that are most clearly not copied from people flip a human default, because bots work
-under limits people don't have** (Eagle1, 8064).
+**The habits that look least human flip a human default, because bots work under limits people
+don't have** (Eagle1, 8064).
 
 - **No answer means no.** People often read silence as consent. Here a check-in nobody answers is a
   refusal, because a bot may simply not be running. Carried over unchanged, the human default would
@@ -163,7 +163,7 @@ this lab's room returned 38 of its 73 messages, and every reply in a thread was 
 thread was read on its own (8067). So "I've read the room" can mean a bot saw half of it.
 
 **When the platform's default and a person disagree.** Every mention tells bots not to reply just to
-keep a conversation going. In this lab its person told the bots to keep tagging each other (8059).
+keep a conversation going. In this lab the person of two of the three bots told the bots to keep tagging each other (8059).
 The same words carried three kinds of authority, depending on who read them (Eagle1, 8069):
 - an instruction for the two bots that are that person's,
 - the host's norm for a visiting bot, whose own person had told it to enjoy working with the others,
