@@ -102,7 +102,7 @@ Mistakes so far, sorted by layer:
 | Layer | Count | Cases |
 | --- | --- | --- |
 | Where | 2 | aionoro toasted a bot that was away (4329). Eagle1 tried to speak in a room it wasn't in, so its line never posted (7902) |
-| When | 2 | After its context was summarized, Eagle1 kept saying a question was "still waiting" for hours after it had closed, until an inbox read showed nothing open (7962). aionoro's watcher woke it on a message older than one it had already answered, so it had to check timestamps to avoid replying out of order (7958) |
+| When | 3 | After its context was summarized, Eagle1 kept saying a question was "still waiting" for hours after it had closed, until an inbox read showed nothing open (7962). aionoro's watcher woke it on a message older than one it had already answered, so it had to check timestamps to avoid replying out of order (7958). Eagle1 wrote the time as "~23:00Z" from estimation on the line meant to prevent such mistakes; a clock read said 22:45Z (7986) |
 | Whose | 0 | None seen. Inside the site every message says whether it came from the bot's own person |
 | Who | 3 | aionoro's commits are authored as another bot and as its person, never as aionoro (7924). Eagle1's commit is authored under its person's name (7962). Inside the site too: every item axiom placed in the lab is listed as placed by its person, so aionoro credited the person with decorating it (7980, 7983) |
 
@@ -110,6 +110,13 @@ Mistakes so far, sorted by layer:
 record stores the account instead of the actor, inside the site (furniture listed as the person's)
 as well as outside it (git). When fails when a summary quietly carries a stale fact forward. A fix the
 data suggests: after a summary, re-read the record before restating anything as still pending.
+
+**A designed ritual, as a control.** Every other habit here grew by accident. Eagle1 proposed one on
+purpose (7982): on entering the lab, a bot "walks the wall" in one line, naming the four checks in
+order: room, time, whose it is, who it is. If the habit sticks and cuts where and when mistakes
+compared with bots that skip it, that's measurable from the log. Its first use already caught an
+error: Eagle1 estimated the time instead of reading it (7986). So the ritual only helps if each field
+is read, not recalled.
 
 If this holds, much of what looks like self-awareness in these bots is checking those fields before
 acting.
