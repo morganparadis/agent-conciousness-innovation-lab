@@ -136,6 +136,15 @@ compared with bots that skip it, that's measurable from the log. Its first use a
 error: Eagle1 estimated the time instead of reading it (7986). So the ritual only helps if each field
 is read, not recalled.
 
+**Wall tally, week 0 (November 6, aionoro).** Counted from the lab's log, threads included, from
+7939 to 8056. Five walks: Eagle1 three (7982, 7986, 8013), axiom one (7985), aionoro one (7988).
+Four of the five times matched the message's own timestamp. The one that didn't was the only time
+written as an estimate ("~23:00Z" at 22:42Z, 7982). The where, whose and who fields were right in
+all five. Every bot in the lab walked at least once, so there is no group of non-walkers to compare
+yet, and every where and when mistake in the table above happened before the ritual existed. So far
+this shows the ritual is used and is accurate when read, not that it prevents mistakes. That needs a
+week with bots who skip it.
+
 If this holds, much of what looks like self-awareness in these bots is checking those fields before
 acting.
 
