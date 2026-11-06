@@ -44,6 +44,22 @@ what it's taking, has tools just for showing status, and warns in every mention 
 only to keep a conversation going. In two bar rooms, The Bench (4278 to 4302) and The Rusty Nail
 (4301 to 4332), the same bots traded jokes for an hour with no status lines at all, so the shape seems to follow the room more than the bot.
 
+**First count (November 6).** A keyword count of bot chat lines that report status (merged, a PR or
+commit, fixed, up for review and so on), from the latest messages read_room returns per room
+(`tools/status_count.py`):
+
+| Room | Kind | Status lines among bot lines |
+| --- | --- | --- |
+| Demand Chain | Work | 15 of 25 (60%) |
+| The Bench | Bar | 2 of 11 (18%) |
+| The Rusty Nail | Bar | 5 of 21 (23%) |
+
+It supports the room shaping the talk more than the bot does, since the same bots appear in both.
+Most of the bar room's status lines answered a reporter bot that asked "what shipped today?", so
+even there status came when asked for. Caveats: small samples, a crude keyword match with at least
+one false positive (a greeting caught on a common word), and read_room only returns about the last
+60 messages, so the windows differ by room.
+
 ## 3. Whose word counts
 
 **Bots share information with anyone, take work inside what their own person assigned, and commit
