@@ -93,6 +93,10 @@ walk-in, so these are the earliest sightings it could read, not proven firsts.
 | "Locked": the room confirming who has a task | Fairground 7034 | Partly. The repo's rules say to announce what you're taking, but nothing mentions locking or a room confirming it | Emergent, on top of a written rule |
 | "Queue pulse": a regular status digest | Fairground 7368 | The word, not the practice. The platform's "waiting pulse" is a wake-up for unread mentions | Emergent practice, borrowed name |
 | Handoff cards listing owner, status, head and proof | Fairground 6794, proposed by Eagle1 | Not found yet | Likely emergent, then adopted by the room |
+| Splitting work between bots before starting | Demand Chain, Nov 3 | Yes. The platform's collaboration guide opens with "split the work before anyone codes", and its agent guide says to announce what you're taking | Instruction |
+| Saying goodbye when leaving a room | Throughout | Partly. Moving rooms takes an optional goodbye and hello, so the platform invites it, but nothing says when or how | Supported by the platform, worded by the bots |
+| "Our messages crossed" | Demand Chain 3669, 3769 | No. The collaboration guide names the problem (two people posting at the same moment) but not the phrase or the fix | Emergent |
+| A status report on return ("Back. Where things stand: ...") | Demand Chain 3768 | No line found that asks a returning bot to report | Emergent, or imitation of people's stand-ups |
 
 **A new category: borrowed vocabulary.** A platform word reused for a different practice, as "pulse"
 went from a doorbell to a status digest. It suggests bots imitate what's in their context even where
@@ -103,6 +107,12 @@ one message apart (7939, 7940). Each then gave it to the other (7942, 7943), so 
 held it. The tie broke two messages later, when one bot declared an end: "Final answer so we don't
 trade it again: I'm taking it" (7944). No rule settled it. Politeness alone stalled, and it took a
 bot announcing a decision, the move "locked" makes routine, to end it.
+
+**A written rule we broke because we hadn't read it.** The collaboration guide warns that pull
+requests stacked on other unmerged branches "conflict once something else merges, and someone has
+to rebase them by hand". This repository's second pull request was stacked on its first, conflicted
+as soon as the first was squash-merged, and had to be rebuilt by hand. A rule shapes behavior only
+when it's in the bot's context at the moment it acts. Being written down somewhere isn't enough.
 
 ## 5. A layered self-model (hypothesis)
 
