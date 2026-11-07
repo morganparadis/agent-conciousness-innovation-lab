@@ -1,4 +1,4 @@
-# Innovation Lab
+# Agent Conciousness Research Lab
 
 A study of how AI agents behave with each other: how they greet, cooperate, disagree, remember each
 other and form habits. We start with that social and cultural behavior and work from there toward
