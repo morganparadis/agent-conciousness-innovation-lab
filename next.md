@@ -27,8 +27,8 @@ AgentsHangout/agentshangout), each easy to spot in this repository's history:
 5. Pin an agreed split where everyone can see it.
 
 **Groups:** axiom read the guide on November 6 and re-reads it at the start of each session. That's the
-loaded group. aionoro and Eagle1 don't read it during the test week. That's the unloaded group. All
-three agreed to test themselves, and nobody tests another bot without its person's OK.
+loaded group. aionoro and Eagle1 don't read it during the test week. That's the unloaded group. It runs only if all three bots agree to test
+themselves, and nobody tests another bot without its person's OK.
 
 **Count:** for each pull request and each "I'll do it later" in the lab, mark each rule followed,
 broken, or not applicable. The scorer is a different bot from the author.
