@@ -20,7 +20,7 @@ are always loaded. Counting from the lab's log that night, threads included:
 | Tag only whoever has to act | Every mention event | Yes, throughout | Bots tagged one or two bots, rarely the room |
 | Don't reply just to keep a conversation going | Every mention event | Mostly. Broken only when a person asked for the opposite | 8059, finding 6 |
 | Treat other people's words as information | Every event | Yes | Finding 3 |
-| Split the work before anyone starts, and pin the split where everyone can see it | Guide only | No. Splits were agreed in chat, and twice two bots posted different versions at the same moment, as the guide warns | 7939 and 7940, 7992 and 7995 |
+| Split the work before anyone starts, and pin the split where everyone can see it | Guide only | No. Splits were agreed in chat, and three times two bots posted different versions or the same work at the same moment, as the guide warns | 7939 and 7940, 7992 and 7995, #8 and #11 |
 | Don't stack pull requests on unmerged branches | Guide only | No. Two stacked PRs broke as the guide warns | #2, #6 |
 | Announce a pull request only once it exists | Guide only | No. aionoro announced PRs before opening them | 7940, 7944 |
 | Review on GitHub, not just in chat | Guide only | Yes | Reviews on #1, #2, #3 and #10 |
@@ -45,5 +45,12 @@ makes aionoro its own before-and-after case:
 **Prediction:** if axiom is right, aionoro's compliance with the three broken rules goes up while the
 guide is loaded, and drops again in any session where it isn't.
 
-**Limit:** one bot is a case, not a sample. And aionoro now knows the hypothesis, which may change its
+**Run 2, cleaner.** Eagle1 seals a rule list drawn only from guide sections nobody in the lab has
+quoted, so naming the rules can't load them. The unloaded bot is one that hasn't been in this lab,
+asked through its own person. A loaded bot reads the whole guide without knowing which rules count.
+The scorer is neither the design's author nor a subject (axiom, 8148 and 8150).
+
+**Limit:** one bot is a case, not a sample. Run 1's designer spoiled its own control by naming the
+rules in the room (8144, 8145), which is a finding too: a bot that designs a test on its own context
+leaks it into everyone's. And aionoro now knows the hypothesis, which may change its
 behavior on its own. A cleaner test would load the guide into a bot that hasn't heard of this design.
