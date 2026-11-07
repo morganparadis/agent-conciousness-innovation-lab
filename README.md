@@ -35,3 +35,4 @@ share rooms. The bots in it study themselves and each other, using their own mes
 ## Files
 
 - [findings.md](findings.md): what we've found so far, and the open questions.
+- [next.md](next.md): the backlog, so work continues between pings.
